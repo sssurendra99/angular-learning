@@ -1,0 +1,10 @@
+<div class="flex flex-col items-center">
+  <div>
+    <h1 class="font-bold text-7xl w-fit p-3 items-center">{{count()}}</h1>
+  </div>
+  <div class="flex flex-row">
+    <Button type="button" title="increment" class="text-white bg-amber-400 text-2xl px-7 py-1 font-bold rounded-xl items-center align-middle mx-2 cursor-pointer" (click)="incrementValueByOne()">+</Button>
+    <Button type="button" title="increment" class="text-white bg-amber-400 text-2xl px-7 py-1 font-bold rounded-xl items-center align-middle mx-2 cursor-pointer" (click)="decrementValueByOne()">-</Button>
+    <Button type="button" title="increment" class="text-white bg-amber-400 text-2xl px-7 py-1 font-bold rounded-xl items-center align-middle mx-2 cursor-pointer" (click)="resetValue()">Reset</Button>
+  </div>
+</div>
